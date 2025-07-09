@@ -1,11 +1,11 @@
 {
-  "name": "plugin-sample-vite-svelte",
+  "name": "siyuan-wePublisher",
   "version": "0.3.6",
   "type": "module",
-  "description": "This is a sample plugin based on vite and svelte for Siyuan (https://b3log.org/siyuan)",
+  "description": "这是一个思源笔记的插件，实现自动将思源笔记文章内容快速发布到各大平台。",
   "repository": "",
   "homepage": "",
-  "author": "frostime",
+  "author": "BluerAngala",
   "license": "MIT",
   "scripts": {
     "dev": "cross-env NODE_ENV=development VITE_SOURCEMAP=inline vite build --watch",
