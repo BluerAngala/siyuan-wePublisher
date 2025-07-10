@@ -8,32 +8,32 @@
     const group1Items: ISettingItem[] = [
         {
             type: 'checkbox',
-            title: 'checkbox',
-            description: 'checkbox',
+            title: '复选框',
+            description: '这是一个复选框',
             key: 'a',
             value: true
         },
         {
             type: 'textinput',
-            title: 'text',
-            description: 'This is a text',
+            title: '文本',
+            description: '这是一个文本',
             key: 'b',
-            value: 'This is a text',
+            value: '这是一个文本',
             placeholder: 'placeholder'
         },
         {
             type: 'textarea',
-            title: 'textarea',
-            description: 'This is a textarea',
+            title: '文本域',
+            description: '这是一个文本域',
             key: 'b2',
-            value: 'This is a textarea',
+            value: '这是一个文本域',
             placeholder: 'placeholder',
             direction: 'row'
         },
         {
             type: 'select',
-            title: 'select',
-            description: 'select',
+            title: '下拉框',
+            description: '这是一个下拉框',
             key: 'c',
             value: 'x',
             options: {
@@ -47,12 +47,12 @@
     const group2Items: ISettingItem[] = [
         {
             type: 'button',
-            title: 'button',
-            description: 'This is a button',
+            title: '按钮',
+            description: '这是一个按钮',
             key: 'e',
-            value: 'Click Button',
+            value: '点击按钮',
             button: {
-                label: 'Click Me',
+                label: '点击我',
                 callback: () => {
                     showMessage('Hello, world!');
                 }
@@ -60,8 +60,8 @@
         },
         {
             type: 'slider',
-            title: 'slider',
-            description: 'slider',
+            title: '滑块',
+            description: '这是一个滑块',
             key: 'd',
             value: 50,
             slider: {
@@ -114,7 +114,7 @@
             on:click={({ detail }) => { console.debug("Click:", detail.key); }}
         >
             <div class="fn__flex b3-label">
-                💡 This is our default settings.
+                💡 这是我们的默认设置。
             </div>
         </SettingPanel>
         <SettingPanel
